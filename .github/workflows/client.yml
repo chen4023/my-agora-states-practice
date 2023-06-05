@@ -27,4 +27,5 @@ jobs:
           aws s3 sync \
             --region ap-northeast-2 \
             build s3://fe-125-chen4023-s3 \
+            --delete
         working-directory: ./my-agora-states-client-react
